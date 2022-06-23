@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    font-family: "Ubuntu", sans-serif;
+    background: rgba(0, 0, 0, 0) linear-gradient(rgb(113, 113, 113), rgb(36, 36, 36)) repeat scroll 0% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    min-width: 24px;
+    min-height: 24px;
+    border: 2px solid rgb(140, 140, 140);
+    color: rgb(1, 1, 20);
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.work-space {
+    height: 556px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    padding-top: 80px;
+}
+
+.main {
+    background-color: rgb(250, 250, 249);
+    justify-content: center;
+    align-items: stretch;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    border-radius: 25px;
+}
+
+.month-title {
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    display: inline-flex;
+    flex-direction: row;
+    border: 0px solid black;
+}
+
+.month-content {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0px;
+    grid-auto-flow: row;
+    border: 0px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.week-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    font-weight: bold;
+    border: none;
+    color: #ccc;
+}
+
+.bottom-bar {
+    border: none;
+    border-top: 2px solid #ccc;
+    display: flex;
+    padding: 10px;
+}
+
+.bottom-bar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
+
+#add-note {
+    border: none;
+    color: rgb(85, 81, 81);
+}
